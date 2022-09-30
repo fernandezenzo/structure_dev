@@ -1,0 +1,18 @@
+#yo1{
+    background-image: radial-gradient(circle at center, lightblue, pink);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    border: solid 2px;
+}
+#yo2{
+    background-image: repeating-radial-gradient(black, white 10px);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: solid 2px;
+}
+#yo2:hover{
+    background-image: repeating-radial-gradient(white, black 10px);
+}
