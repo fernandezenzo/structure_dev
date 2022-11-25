@@ -125,3 +125,85 @@ function calcul(){
 
 calcul();
 */
+/*
+function testString (chain1,chain2){
+    if(chain1.includes(chain2) || chain2.includes(chain1)){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+
+let chain1 = prompt("Mot 1");
+let chain2 = prompt("Mot 2");
+alert(testString(chain1,chain2));
+
+function func() {
+
+    let nombre = (Math.round(Math.random() * 1000 - 500) / 10);
+    console.log(nombre);
+
+    let alea = prompt('choisi un nombre');
+
+    while (alea != nombre) {
+        if (alea > nombre) {
+            alert("trop grand!");
+        } else if (alea < nombre) {
+            alert("trop petit!");
+        }
+        alea = prompt('choisi un nombre');
+    }
+    alert("gagné!");
+}
+
+func();
+
+let semaine = ['lun','mra','mer','jeu','ven','sam'];
+semaine.pop();
+semaine.push('dim');
+semaine[1] = 'mar';
+document.write(semaine.length);
+document.write(semaine[2]);
+console.log(semaine);
+
+
+function exoBizarre() {
+
+    let tab = [];
+
+    let util = prompt("veuillez écrire un truc")
+    while (util != 0) {
+        util = prompt("veuillez écrire un truc")
+
+        if (util != 0) {
+            tab.push(util);
+        } else if (util == 0) {
+            alert(tab[(Math.round(Math.random() * tab.length))]);
+        }
+        console.log(tab);
+    }
+
+}
+exoBizarre();
+let windsize = 'width = 700, height = 700';
+function question(){
+    if(confirm("voulez vous ouvrir une nouvelle fenêtre?")){
+        fenetre = window.open('https://www.adrar-formation.com/',+windsize);
+    }
+}
+question();
+*/
+/*
+function coordonne(pos){
+    let crdn = pos.coords;
+    let latitude = crdn.latitude - 48.85;
+    let longitude = crdn.longitude - 2.29;
+    
+
+    console.log('Latitude:' + latitude.toFixed(2)
+    ,'Longitude : ' + longitude.toFixed(2));
+
+}
+navigator.geolocation.getCurrentPosition(coordonne);
+*/
