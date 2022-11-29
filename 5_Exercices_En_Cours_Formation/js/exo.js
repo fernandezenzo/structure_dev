@@ -206,4 +206,26 @@ function coordonne(pos){
 
 }
 navigator.geolocation.getCurrentPosition(coordonne);
-*/
+
+function stock(){
+    let stockage = [location.host,location.port,location.protocole,href];
+    alert(stockage);
+    if(confirm("voulez vous ouvrir une nouvelle fenêtre?")){
+        fenetre = window.open('https://www.adrar-formation.com/',+windsize);
+    }
+}
+stock(); */
+
+
+
+document.querySelector('h1').outerHTML = '<h1> Bienvenue sur mon super site!</h1>';
+document.querySelector('p').outerHTML = '<h2> J\'adore le developpement </h2>';
+document.getElementById('firstP').textContent = 'Le HTML, le CSS';
+//.innerHTML = '<p>Et maintenant le JS</p>';
+document.querySelector('title').innerHTML = 'dev';
+
+let p = document.getElementsByClassName('p');
+for (valeur of p){
+    valeur.textContent = 'Et maintenant le JS';
+}
+console.log('ok');
